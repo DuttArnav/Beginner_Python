@@ -1,0 +1,51 @@
+“Campus Activity Registration Portal”
+A college is developing a Python-based portal to manage student participation in campus activities such as cultural events, sports, and workshops.
+You are required to help develop different components of this portal using only the Python topics provided in your syllabus (excluding file handling).
+Answer the following sub-questions based on the case.
+Q1. Data Types & Operators
+The portal collects the following data: student name, age, and marks in 3 internal assessments.
+Store age as an integer, marks as float values, and roll number as a complex number (with imaginary part 1).
+Using arithmetic operators, calculate total and average marks.
+Use comparison operators to check if the student is eligible for activity participation (average ≥ 60).
+Q2. Program Flow Control
+Use if–elif–else to assign performance grade (A/B/C/Fail).
+Use a for loop to print each mark separately.
+Use a while loop to repeatedly ask whether the student wants to enroll in another activity until they type "no".
+Demonstrate break, continue, and pass with appropriate messages inside loops.
+Q3. String Operations
+The activity names are stored as strings.
+8. Access characters of an activity name using indexing and slicing.
+9. Use len(), .find(), and comparison between two activity names.
+10. Traverse the activity name using a for loop and print each character.
+Q4. Lists & Tuples
+Each student may register for multiple activities.
+11. Store activity names in a list and perform:
+append
+insert
+pop
+slicing
+Store fixed student details (name, roll number, grade) in a tuple and print each element.
+Q5. Dictionaries & Sets
+The college maintains activity data.
+13. Create a dictionary mapping student names to their list of registered activities. Demonstrate:
+adding entries
+updating entries
+deleting a key
+looping through dictionary items
+Store unique activities in a set and demonstrate:
+adding items
+removing items
+union
+intersection
+Q6. Functions (All types from syllabus)
+Create a function that calculates a student’s grade based on average marks.
+Create a function with default arguments to display student information.
+Create a function with variable-length arguments (*args) to accept multiple activity names.
+Create a function that returns multiple values at once (using a tuple).
+Q7. Exception Handling
+The portal must not crash due to invalid inputs.
+19. Use a try–except block to handle ValueError when converting age or marks.
+20. Use multiple except blocks for different exceptions.
+21. Demonstrate nested try–except while reading student marks and processing grade.
+22. Use a finally block to display a completion message.
+23. Create a user-defined exception InvalidMarksError and raise it when marks are below 0 or above 100.
